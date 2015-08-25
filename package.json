@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile": "babel test/ --out-dir test/compiled",
+    "build": "babel babel-tests --out-dir test",
     "test": "mocha -R spec --compilers js:babel/register test/*-spec.js",
     "watch": "npm test -- --watch"
   },
