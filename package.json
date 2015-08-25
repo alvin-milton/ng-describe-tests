@@ -10,6 +10,7 @@
   },
   "pre-commit": "npm test",
   "author": "Alvin Milton",
+  "repository": "https://github.com/alvin-milton/ng-describe-tests",
   "license": "ISC",
   "devDependencies": {
     "async": "^1.4.2",
