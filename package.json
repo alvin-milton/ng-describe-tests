@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R spec test/*-spec.js",
+    "test": "mocha -R spec --compilers js:babel/register test/*-spec.js",
     "watch": "npm test -- --watch"
   },
   "pre-commit": "npm test",
@@ -12,6 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "async": "^1.4.2",
+    "babel": "^5.8.21",
     "check-more-types": "^1.8.2",
     "karma": "^0.13.9",
     "lazy-ass": "^0.5.8",
